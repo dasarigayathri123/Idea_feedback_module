@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Idea Feedback Module</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- <img src="idea image.jpg" width="100%" height="100%"/> -->
+        <h1>Idea Feedback Module</h1>
+
+        <!-- Idea Submission -->
+        <div class="card">
+            <h2>Share your Idea</h2>
+            <input type="text" id="ideaTitle" placeholder="Idea Title">
+            <textarea id="ideaDesc" placeholder="Idea Description"></textarea><br>
+            <button onclick="addIdea()">Submit</button>
+        </div>
+
+        <!-- Ideas List -->
+        <div id="ideasContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
